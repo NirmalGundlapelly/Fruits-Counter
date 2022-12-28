@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #ffd569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  width: 100%;
+}
+
+.heading {
+  font-size: 50px;
+
+  color: #000000;
+}
+.cardContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.imageContainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.firstCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.cards {
+  display: flex;
+}
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+span {
+  color: #ffd569;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+    padding-top: 80px;
+  }
+  .cardContainer {
+    width: 100%;
+    text-align: center;
+  }
+  .bgContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .images {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+  .cardContainer {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+  }
+  .bgContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .images {
+    width: 40%;
+  }
+}
